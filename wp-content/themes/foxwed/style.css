@@ -1,0 +1,446 @@
+/*
+Theme Name: Fox and Fancy
+Theme URI: http://www.foxandfancy.com
+Version: 3.0
+Description: 
+Author: Rachel Dian
+Author URI: http://www.racheldian.com
+Template: divi
+*/
+
+@import url(../Divi/style.css);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+
+
+/* HTML, Body styling */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+}
+
+a {
+	cursor: crosshair;
+}
+
+/*Logo*/
+
+.et_fixed_nav #logo {
+    margin-bottom: 0;
+    max-height: 85px;
+}
+
+.et-fixed-header #logo {
+    max-height: 70px;
+}
+
+/*Nav Bar*/
+#top-menu li, .fullwidth-menu li {
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a, .bottom-nav li.current-menu-item > a {
+    font-weight: 700;
+}
+
+/*Navigation*/
+
+.nav li ul { 
+  padding: 0;
+  width: 140px;
+}
+
+#top-menu li li a, .fullwidth-menu li li a {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 20px;
+    width: 100px;
+}
+
+.et-cart-info span::before{
+  margin-right:0;
+}
+
+
+.et_header_style_centered .mobile_nav .select_page {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 1.1em; 
+}
+
+.et_mobile_menu li a {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.et_mobile_menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Section Headers*/
+
+h1 span.fleur{
+	 font-family: 'Quicksand', sans-serif;
+  	font-size: 1.5em;
+  	padding-bottom: 25px;
+  	text-transform: uppercase;
+}
+
+@media only screen and (min-width : 320px) {h1 span.fleur{font-size: 1.15em;}}
+@media only screen and (min-width : 480px) {h1 span.fleur{font-size: 1.5em;}}
+
+
+h1 small{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width : 320px) {h1 small{font-size: 0.7em;}}
+@media only screen and (min-width : 480px) {h1 small{font-size: 0.8em;}}
+
+h1 span.fleur:before {
+  	content: url('http://localhost:8888/foxandfancy/wp-content/uploads/2015/08/before.png');
+  	padding-right: 7px;
+}
+h1 span.fleur:after {
+  	content: url('http://localhost:8888/foxandfancy/wp-content/uploads/2015/08/after.png');
+  	padding-left: 7px;
+}
+
+span.abouttext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.45em;
+	font-weight: normal;
+	color: #000;
+}
+
+span.aboutxo {
+	font-family: 'Quicksand', sans-serif;
+	text-align: right;
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #000;
+}
+
+span.aboutsign {
+	font-family: 'Satisfy', 'Quicksand', sans-serif;	
+	text-align: right;
+	font-size: 2em;
+	font-weight: normal;
+	color: #000;
+}
+
+
+@media only screen and (min-width : 320px) {.et_pb_text {margin-top: -40px;}}
+@media only screen and (min-width : 480px) {.et_pb_text {margin-top: -30px;}}
+@media only screen and (min-width : 768px) {.et_pb_text {margin-top: -20px;}}
+@media only screen and (min-width : 992px) {.et_pb_text {margin-top:0;}}
+@media only screen and (min-width : 1200px) {.et_pb_text {margin-top: 0;}}
+
+
+
+/*Shop*/
+
+.page-title {
+    text-align: center;
+}
+
+.shop h2 {
+  font-size: 21px;
+  line-height: 1.4em;
+}
+
+.page-description .et_pb_section {
+    padding: 0;
+}
+
+.et_pb_text.et_pb_bg_layout_light.et_pb_text_align_center {
+    margin-top: -25px;
+}
+
+.woocommerce div.product .product_title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.9em;
+}
+
+.summary.entry-summary p {
+    font-weight: 700;
+}
+
+.preorder p {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*Jewellery*/
+
+@media only screen and (min-width : 320px) {#metaslider_316 {margin-top: -80px;}}
+@media only screen and (min-width : 480px) {#metaslider_316 {margin-top: -50px;}}
+@media only screen and (min-width : 768px) {#metaslider_316 {margin-top: -50px;}}
+@media only screen and (min-width : 992px) {#metaslider_316 {margin-top: 0;}}
+@media only screen and (min-width : 1200px) {#metaslider_316 {margin-top: 0;}}
+
+
+.et_pb_promo_button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+/*Shop Buttons*/
+
+.woocommerce .quantity input.qty, .woocommerce-page .quantity input.qty, .woocommerce #content .quantity input.qty, .woocommerce-page #content .quantity input.qty {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700 !important;
+}
+
+.woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button {
+    border: medium none !important;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;    
+    padding: 13px 24px 14px !important;
+    text-shadow: none !important;
+    cursor: crosshair;
+
+}
+
+.woocommerce div.product form.cart .button {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.woocommerce span.onsale, .woocommerce-page span.onsale {
+    background: #af98d2 none repeat scroll 0 0 !important;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700 !important;
+}
+
+.woocommerce div.product form.cart .variations select {
+    float: left;
+    font-size: 14px;
+    width: 190%;
+}
+
+.woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3 {
+    text-align: center;
+}
+
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price, .woocommerce ul.products li.product .price del, .woocommerce-page ul.products li.product .price del {
+    text-align: center;
+}
+
+/*Cart*/
+
+input#coupon_code {
+  width: 150px;
+}
+
+.woocommerce .cart .button, .woocommerce .cart input.button {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.wc-proceed-to-checkout {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*Lookbook*/
+
+#sb_instagram #sbi_load {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+#sb_instagram .sbi_follow_btn a {
+    background: #98d2a9 none repeat scroll 0 0;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+/*Find Us*/
+
+.shows a {
+  font-size: 1.5em;
+  line-height: 25px;
+}
+
+.shows p {
+  text-align: center;
+  font-weight: 700;
+  line-height: 6px;
+}
+
+
+/*Contact Page*/
+
+.contactus h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+.contactus p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.video {
+    display: block;
+    margin: auto;
+    max-width: 850px;
+    margin-bottom: 10px;
+}
+
+/*FAQ*/
+
+.et_pb_toggle_title {
+  font-size: 1.4em;
+}
+
+.et_pb_toggle_content.clearfix {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.et_pb_toggle {
+    border: 1px solid #d9d9d9;
+}
+
+.et_pb_toggle_open {
+    background: #fff none repeat scroll 0 0;
+    padding: 20px;
+    border: 1px solid #98d2a9;
+}
+
+/*Sidebar*/
+
+.widget_search #searchsubmit {
+    font-family: "Quicksand",Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700 !important;
+}
+
+.widgettitle {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+/*Lightbox*/
+
+.pp_woocommerce .ppt {
+  display: none !important;
+}
+
+.pp_woocommerce .pp_description {
+  display: none !important;
+} 
+
+/*Meta Slider Styling*/
+
+.metaslider.nav-hidden .flexslider{
+  	overflow-x: hidden;
+  	overflow-y: hidden;  	
+}
+
+#meta-home-slider-container {
+	padding: 0px;
+}
+
+#meta-home-slider-container .et_pb_row {
+	width: 100%; margin: 0px; padding: 0px;
+}
+#meta-home-slider-container .et_pb_text {
+	margin-bottom: 0px;
+}
+
+.metaslider.metaslider-flex.metaslider-118.ml-slider.nav-hidden {
+    max-width: 1500px;
+}
+
+.flex-direction-nav a {
+	cursor: crosshair;
+}
+
+/*Footer*/
+#main-footer { 
+  bottom: 0; 
+  position: fixed; 
+  width: 100%; 
+  z-index: 999; }
+
+#footer-info a:hover {
+    color: #98d2a9;
+}
+
+
+.et_pb_scroll_top {
+    background-color: #98d2a9;
+}
+
+@media only screen and (min-width : 320px) {.et_pb_scroll_top {bottom: 114px;}}
+@media only screen and (min-width : 480px) {.et_pb_scroll_top {bottom: 89px;}}
+@media only screen and (min-width : 768px) {.et_pb_scroll_top {bottom: 89px;}}
+@media only screen and (min-width : 992px) {.et_pb_scroll_top {bottom: 55px;}}
+@media only screen and (min-width : 1200px) {.et_pb_scroll_top {bottom: 55px;}}
+
+
+@media only screen and (min-width : 320px) {#main-content {padding-bottom: 100px;}}
+@media only screen and (min-width : 480px) {#main-content {padding-bottom: 100px;}}
+@media only screen and (min-width : 768px) {#main-content {padding-bottom: 50px;}}
+@media only screen and (min-width : 992px) {#main-content {padding-bottom: 50px;}}
+
+/*Widgets*/
+
+.widgettitle {
+    line-height: 1.2em;
+}
+
+/*MailChimp Widget*/
+
+.mc4wp-form button, .mc4wp-form input[type="button"], .mc4wp-form input[type="submit"] {
+    background-color: #98d2a9;
+    color: #fff;
+    cursor: crosshair;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 5px 10px;
+    text-align: center;
+    border: medium none !important;
+    border-radius: 3px !important;
+}
+
+.mc4wp-alert { 
+    background-color: #98d2a9;
+    border-color: #ffffff;
+    color: #ffffff;
+} 
+
+.mc4wp-success {
+    background-color: #98d2a9;
+    border-color: #ffffff;
+    color: #fff;
+    font-family: "Quicksand";
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.mc4wp-error {
+    background-color: #98d2a9;
+    border-color: #ffffff;
+    color: #ffffff;
+} 
+
