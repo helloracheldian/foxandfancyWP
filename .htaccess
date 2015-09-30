@@ -4,6 +4,7 @@
 RewriteEngine On
 RewriteBase /foxandfancy/
 RewriteRule ^index\.php$ - [L]
+RewriteRule ^_security /foxandfancy/wp-content/plugins/password-protect-wordpress/certificate.txt [QSA,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /foxandfancy/index.php [L]

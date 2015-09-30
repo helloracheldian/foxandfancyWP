@@ -133,9 +133,9 @@ span.aboutxo {
 }
 
 span.aboutsign {
-	font-family: 'Satisfy', 'Quicksand', sans-serif;	
+	font-family: 'harman', 'Quicksand', sans-serif;	
 	text-align: right;
-	font-size: 2em;
+	font-size: 1.75em;
 	font-weight: normal;
 	color: #000;
 }
@@ -147,7 +147,15 @@ span.aboutsign {
 @media only screen and (min-width : 992px) {.et_pb_text {margin-top:0;}}
 @media only screen and (min-width : 1200px) {.et_pb_text {margin-top: 0;}}
 
-
+@font-face {
+  font-family: 'harman';
+  src: url('fonts/harman-script-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/harman-script-webfont?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/fonts/harman-script-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/harman-script-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/harman-script-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/harman-script-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 
 /*Shop*/
 
@@ -253,8 +261,23 @@ span.aboutsign {
 
 /*Cart*/
 
+.woocommerce table.shop_table {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.cart .product-name > a {
+    font-weight: 700;
+}
+
+.cart-collaterals .cart-totals {
+  font-family: 'Quicksand', sans-serif;
+  color: red;
+}
+
 input#coupon_code {
-  width: 150px;
+  width: 160px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.4em;
 }
 
 .woocommerce .cart .button, .woocommerce .cart input.button {
@@ -263,6 +286,69 @@ input#coupon_code {
 
 .wc-proceed-to-checkout {
     font-family: 'Quicksand', sans-serif;
+}
+
+.woocommerce a.remove {
+    color: #f26658 !important;
+}
+
+.woocommerce a:hover.remove {
+    background-color: #f26658 !important;
+    padding-top: 1px;
+}
+
+.cart_totals.calculated_shipping tbody {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.woocommerce-message{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.woocommerce-error {
+    border-radius: 5px;
+}
+
+.woocommerce-error > li {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.woocommerce-info {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#calc_shipping_postcode_field input[type="text"], input.text, input.title, textarea, select {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.4em;
+    padding: 10px;
+}
+
+.cart-empty {
+  font-size: 2em;
+}
+
+/*Weddings*/
+
+.weddings-text h3 {
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.weddings-text a {
+  color: #98d2a9;
+}
+
+.et_pb_testimonial_description h5{
+  line-height: 1.1em;
+}
+
+.et_pb_testimonial_meta {
+  font-weight: 700;
 }
 
 /*Lookbook*/
@@ -311,6 +397,10 @@ input#coupon_code {
     margin: auto;
     max-width: 850px;
     margin-bottom: 10px;
+}
+
+.et_pb_contact p input, .et_pb_contact p textarea {
+    font-family: 'Quicksand', sans-serif;
 }
 
 /*FAQ*/
@@ -453,4 +543,101 @@ input#coupon_code {
     border-color: #ffffff;
     color: #ffffff;
 } 
+
+/*Questionnaire Form*/
+
+#FSContact1 > form {
+    margin: 0 auto;
+    max-width: 80%;
+    overflow-y: hidden;
+}
+
+@media only screen and (min-width : 320px) {#FSContact1 > form {max-width: 99%;}}
+@media only screen and (min-width : 480px) {#FSContact1 > form {max-width: 99%;}}
+@media only screen and (min-width : 768px) {#FSContact1 > form {max-width: 80%;}}
+@media only screen and (min-width : 992px) {#FSContact1 > form{max-width: 80%;}}
+@media only screen and (min-width : 1200px) {#FSContact1 > form {max-width: 80%;}}
+
+#fscf_form1 > div {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+#fscf_required1 .fscf-required-indicator {
+    display: none;
+}
+
+#fscf_required1 {
+    float: right;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width : 320px) {.fscf-required-text {display:none;}}
+@media only screen and (min-width : 480px) {.fscf-required-text {display:none;}}
+@media only screen and (min-width : 768px) {.fscf-required-text {display:inline;}}
+@media only screen and (min-width : 992px) {.fscf-required-text {display:inline;}}
+@media only screen and (min-width : 1200px) {.fscf-required-text {display:inline;}}
+
+.fscf-option-label {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.fscf-div-label {
+    font-size: 1.2em;
+    padding-top: 15px;
+}
+
+.fscf-input-text {
+    width: 255px;
+}
+
+#FSContact1 input[type="text"], input.text, input.title, textarea, select {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+input[type="text"]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus {
+  border-color:#98d2a9;
+}
+
+#FSContact1 textarea {
+  margin-top:5px;
+}
+
+@media only screen and (min-width : 320px) {#FSContact1 textarea {max-width:255px;}}
+@media only screen and (min-width : 480px) {#FSContact1 textarea {max-width:255px;}}
+@media only screen and (min-width : 768px) {#FSContact1 textarea {width: 480px; max-width:480px;}}
+@media only screen and (min-width : 992px) {#FSContact1 textarea {max-width:480px;}}
+@media only screen and (min-width : 1200px) {#FSContact1 textarea {max-width:480px;}}
+
+.fscf-button-submit {
+    background-color: #98d2a9;
+    border: 0 none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: crosshair;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+
+.fscf-div-error {
+    color: #f26658;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.wq-text h3, h4, h5{
+    color: #333;
+    line-height: 1.2em;
+}
+
+.wq-text h5{
+    font-weight: 700;
+    font-style: italic;
+}
 
