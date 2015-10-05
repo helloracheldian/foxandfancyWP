@@ -8,9 +8,9 @@ Author URI: http://www.racheldian.com
 Template: divi
 */
 
-@import url(../Divi/style.css);
-@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700,300);
-@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url("../divi/style.css");
+@import url("http://fonts.googleapis.com/css?family=Quicksand:400,700,300");
+@import url("http://fonts.googleapis.com/css?family=Satisfy");
 
 
 /* HTML, Body styling */
@@ -639,5 +639,86 @@ input[type="text"]:focus, input.text:focus, input.title:focus, textarea:focus, s
 .wq-text h5{
     font-weight: 700;
     font-style: italic;
+}
+/*Checkout Page*/
+
+#billing_first_name {
+  height: 30px;
+}
+
+#billing_last_name {
+  height: 30px;
+}
+
+#billing_company {
+  height: 30px;
+}
+
+#billing_email {
+  height: 30px;
+}
+
+#billing_phone {
+  height: 30px;
+}
+
+#billing_country {
+  height: 30px;
+}
+
+#billing_address_1 {
+  height: 30px;
+}
+
+#billing_address_2 {
+  height: 30px;
+}
+
+#billing_city {
+  height: 30px;
+}
+
+#billing_postcode {
+  height: 30px;
+}
+
+#shipping_first_name {
+  height: 30px;
+}
+
+#shipping_last_name {
+  height: 30px;
+}
+
+#shipping_company {
+  height: 30px;
+}
+
+#shipping_email {
+  height: 30px;
+}
+
+#shipping_phone {
+  height: 30px;
+}
+
+#shipping_country {
+  height: 30px;
+}
+
+#shipping_address_1 {
+  height: 30px;
+}
+
+#shipping_address_2 {
+  height: 30px;
+}
+
+#shipping_city {
+  height: 30px;
+}
+
+#shipping_postcode {
+  height: 30px;
 }
 
