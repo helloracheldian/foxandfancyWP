@@ -109,11 +109,11 @@ h1 small{
 @media only screen and (min-width : 480px) {h1 small{font-size: 0.8em;}}
 
 h1 span.fleur:before {
-  	content: url('http://localhost:8888/foxandfancy/wp-content/uploads/2015/08/before.png');
+  	content: url('http://foxandfancy.com/wp-content/uploads/2015/08/before.png');
   	padding-right: 7px;
 }
 h1 span.fleur:after {
-  	content: url('http://localhost:8888/foxandfancy/wp-content/uploads/2015/08/after.png');
+  	content: url('http://foxandfancy.com/wp-content/uploads/2015/08/after.png');
   	padding-left: 7px;
 }
 
@@ -351,6 +351,15 @@ input#coupon_code {
   font-weight: 700;
 }
 
+h2 span.fleur:before {
+    content: url('http://foxandfancy.com/wp-content/uploads/2015/08/before.png');
+    padding-right: 7px;
+}
+h2 span.fleur:after {
+    content: url('http://foxandfancy.com/wp-content/uploads/2015/08/after.png');
+    padding-left: 7px;
+}
+
 /*Lookbook*/
 
 #sb_instagram #sbi_load {
@@ -401,6 +410,11 @@ input#coupon_code {
 
 .et_pb_contact p input, .et_pb_contact p textarea {
     font-family: 'Quicksand', sans-serif;
+}
+
+.et-pb-contact-message > p {
+    font-size: 1.8em;
+    text-align: center;
 }
 
 /*FAQ*/
@@ -640,62 +654,86 @@ input[type="text"]:focus, input.text:focus, input.title:focus, textarea:focus, s
     font-weight: 700;
     font-style: italic;
 }
+
+.fscf-div-redirecting {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8em;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
 /*Checkout Page*/
 
 #billing_first_name {
   height: 30px;
+  font-weight: 700;
 }
 
 #billing_last_name {
   height: 30px;
+  font-weight: 700;
 }
 
 #billing_company {
   height: 30px;
+  font-weight: 700;
 }
 
 #billing_email {
   height: 30px;
+  font-weight: 700;
 }
 
 #billing_phone {
   height: 30px;
+  font-weight: 700;
 }
 
 #billing_country {
   height: 30px;
+  font-weight: 700;
 }
 
 #billing_address_1 {
   height: 30px;
+  font-weight: 700;
 }
 
 #billing_address_2 {
   height: 30px;
+  font-weight: 700;
 }
 
 #billing_city {
   height: 30px;
+  font-weight: 700;
 }
 
 #billing_postcode {
   height: 30px;
+  font-weight: 700;
 }
 
 #shipping_first_name {
   height: 30px;
+  font-weight: 700;
 }
 
 #shipping_last_name {
   height: 30px;
+  font-weight: 700;
 }
 
 #shipping_company {
   height: 30px;
+  font-weight: 700;
 }
 
 #shipping_email {
   height: 30px;
+  font-weight: 700;
 }
 
 #shipping_phone {
@@ -704,21 +742,37 @@ input[type="text"]:focus, input.text:focus, input.title:focus, textarea:focus, s
 
 #shipping_country {
   height: 30px;
+  font-weight: 700;
 }
 
 #shipping_address_1 {
   height: 30px;
+  font-weight: 700;
 }
 
 #shipping_address_2 {
   height: 30px;
+  font-weight: 700;
 }
 
 #shipping_city {
   height: 30px;
+  font-weight: 700;
 }
 
 #shipping_postcode {
   height: 30px;
+  font-weight: 700;
 }
 
+.woocommerce #payment #place_order, .woocommerce form .form-row-last, .woocommerce-page #payment #place_order, .woocommerce-page form .form-row-last {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Successful Order */
+
+.woocommerce .order_details li {
+    margin-top: 15px;
+    font-size: .8em;
+    font-family: 'Quicksand', sans-serif;
+}
